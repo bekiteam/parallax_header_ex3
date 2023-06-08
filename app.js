@@ -6,6 +6,7 @@ let img5 = document.getElementById('img5');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
+    //px change when scroll
     text.style.marginTop = value * 2.5 + 'px';
     leaf.style.top = value * -1.5 + 'px';
     leaf.style.left = value * 1.5 + 'px';
